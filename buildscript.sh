@@ -9,6 +9,8 @@ build_script()
     mv $3/build/$2 build/$2.backend
 }
 
+echo "Build folder init"
+mkdir build
 
 echo "Installing build dependencies"
 echo "  pip packages"
